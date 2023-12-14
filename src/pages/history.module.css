@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    padding: 1.1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main {
+    min-height: 100vh;
+}
+
+.card {
+    width: 24%;
+    background: var(--historybg);
+    color: var(--stdnthomeclr);
+    padding: 7px;
+    margin: 5px;
+    margin-block: 15px;
+    border-radius: 5px;
+    margin-inline: 10px;
+}
+
+.card:hover>h6 {
+    font-size: 1.01rem;
+}
+
+.card:hover {
+    transform: scale(1.09);
+    background: var(--stdnthomehoverbg);
+    transition: all .7s ease-in-out;
+}
+
+/* responsive design start */
+@media(max-width:1100px) {
+    .card {
+        width: 40%;
+        margin: 10px;
+    }
+}
+
+@media(max-width:710px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media(max-width:520px) {
+    .card {
+        width: 85%;
+    }
+}

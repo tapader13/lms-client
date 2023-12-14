@@ -1,0 +1,45 @@
+.content {
+    /* background: radial-gradient(circle, rgba(255, 251, 253, 1) 0%, rgb(166, 191, 218) 93%); */
+    width: 500px;
+    padding: 1rem;
+    background-color: #263043;
+    border-radius: 10px;
+}
+
+.main {
+    width: 100vw;
+    height: 90vh;
+    background-image: linear-gradient(to right, #d3cce3, #e9e4f0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp label,
+input {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+
+.inp label {
+    color: rgb(125, 93, 34);
+}
+
+.inp input {
+    border-radius: 5px;
+    padding-inline: 10px;
+
+    padding-block: 4px;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-block: 10px;
+}
+
+.btn {
+    text-align: center;
+}

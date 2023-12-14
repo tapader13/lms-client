@@ -1,0 +1,32 @@
+.main {
+    background-color: rgb(232, 244, 232);
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    padding: 1rem;
+
+}
+
+.form label {
+    color: #861042;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.link {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+}

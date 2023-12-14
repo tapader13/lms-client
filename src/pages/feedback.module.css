@@ -1,0 +1,104 @@
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5rem; */
+}
+
+.content {
+    padding: 1.5rem;
+    border-radius: 15px;
+    color: var(--feedbackcolour);
+    background: var(--feedbackbg);
+    box-shadow: 0px 19px 38px 0px rgba(221, 198, 195, 0.3);
+    /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(218, 215, 208, 1) 100%); */
+}
+
+.content h4 {
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ftype {
+    display: flex;
+    gap: 10px;
+    margin-block: 10px;
+    justify-content: flex-start;
+}
+
+.ftype label {
+    font-size: 1.3rem;
+}
+
+.ftype input {
+    border: none;
+    background: var(--txtbg);
+    color: var(--txtcolour);
+    outline: none;
+}
+
+.ftype select {
+    border: none;
+    outline: none;
+    background: var(--txtbg);
+    color: var(--txtcolour);
+}
+
+.feddlts label {
+    font-size: 1.3rem;
+}
+
+.feddlts textarea {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+.txt {
+    height: 260px;
+    width: 500px;
+    background: var(--txtbg);
+    color: var(--txtcolour);
+}
+
+/* responsive design start */
+@media(max-width:1100px) {
+    .ftype label {
+        font-size: 1.1rem;
+
+    }
+
+    .txt {
+        height: 260px;
+        width: 100%;
+    }
+}
+
+/* @media(max-width:715px) {
+    .card {
+        width: 47%;
+    }
+}
+
+@media(max-width:515px) {
+    .card {
+        width: 70%;
+    }
+}
+
+@media(max-width:415px) {
+    .card {
+        width: 85%;
+    }
+} */

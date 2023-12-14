@@ -1,0 +1,156 @@
+.main {
+
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contentsrc {
+    display: flex;
+    width: 600px;
+    margin-block: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.srccontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.srccontent input {
+    padding-block: 10px;
+    padding-inline: 6px;
+    width: 260px;
+    border-radius: 15px;
+
+}
+
+
+.contentsrc label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--showbooksrccolour);
+}
+
+.icn {
+    position: absolute;
+    right: 5px;
+    font-size: 1.7rem;
+}
+
+.checksemester {
+    display: flex;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    gap: 5px;
+    color: var(--stdnthomeclr);
+    justify-content: space-around;
+}
+
+.showbook {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 23%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background: var(--stdnthomebg);
+    color: var(--stdnthomeclr);
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    background: var(--stdnthomehoverbg);
+    transition: all .7s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateX(5px);
+    font-weight: 650;
+    transition: all .4s ease-in-out;
+}
+
+.srcinicon {
+    background: var(--showbooksrcbg);
+
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}
+
+.cardcontent {
+    margin-block: 8px;
+}
+
+.btn {
+    margin-bottom: 7px;
+
+}
+
+/* responsive design start */
+@media(max-width:1400px) {
+    .card {
+        width: 32%;
+    }
+}
+
+@media(max-width:980px) {
+    .card img {
+        height: 180px;
+        width: 100%;
+    }
+}
+
+@media(max-width:745px) {
+    .card {
+        width: 40%;
+    }
+
+    .checksemester {
+        gap: 10px;
+    }
+}
+
+@media(max-width:625px) {
+    .card {
+        width: 70%;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+
+}
+
+@media(max-width:417px) {
+    .card {
+        width: 90%;
+    }
+
+    .srccontent input {
+        width: 220px;
+
+    }
+
+
+}

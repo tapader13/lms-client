@@ -1,0 +1,55 @@
+.dark-theme {
+    --navBagColour: #1d2634;
+    --leftsidebg: #263043;
+    --rightcontentBg: #1d2634;
+    --rightcontentcolour: #FFFFFF;
+    --contbgcolour: darkolivegreen;
+    --number: #6678a5;
+    --numbicon: green;
+    --boxshadownav: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+    --parthovercolr: rgba(255, 255, 255, 0.2);
+    --stdnthomebg: #111827;
+    --stdnthomeclr: #9CA3AF;
+    --feedbackbg: #263043;
+    --feedbackcolour: #9CA3AF;
+    --historybg: #263043;
+    --requestbg: #263043;
+    --requestbgcolour: #9CA3AF;
+    --morenav: linear-gradient(90deg, #9CA3AF, #263043);
+    --updateprofilebg: #263043;
+    --updateprofilecolour: #9CA3AF;
+    --showbooksrcbg: #6678a5;
+    --showbooksrccolour: #9CA3AF;
+    --txtcolour: aliceblue;
+    --txtbg: #1d2634;
+    --stdnthomebg: #263043;
+    --stdnthomehoverbg: #464a51;
+    --showbooksrccolou: #9CA3AF;
+    --icnclr: white;
+    transition: color 0.8s ease-in-out;
+}
+
+.light-theme {
+    --icnclr: black;
+    --txtcolour: black;
+    --txtbg: white;
+    --navBagColour: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(204, 204, 204, 0.7) 50%, rgba(255, 255, 255, 0.7) 100%);
+    --leftsidebg: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(230, 230, 230, 1) 100%);
+    --showbooksrccolou: black;
+
+    --feedbackbg: #f3f4f6;
+    --rightcontentBg: #ffffff;
+    --partbg: rebeccapurple;
+    --boxshadownav: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+    --parthovercolr: rgba(147, 94, 94, 0.2);
+    --historybg: #f3f4f6;
+    --requestbg: #f3f4f6;
+    --morenav: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 100%);
+    ;
+    --updateprofilebg: radial-gradient(circle, rgba(255, 251, 253, 1) 0%, rgb(166, 191, 218) 93%);
+    --showbooksrcbg: #f3f4f6;
+    /* --stdnthomebg: rgb(202, 175, 149); */
+    --stdnthomehoverbg: #f3f4f6;
+    --morecolour: black;
+    transition: color 0.8s ease-in-out;
+}

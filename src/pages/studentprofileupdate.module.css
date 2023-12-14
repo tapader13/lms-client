@@ -1,0 +1,73 @@
+.content {
+    background: var(--updateprofilebg);
+    color: var(--updateprofilecolour);
+    width: 500px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp label,
+input {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+
+.inp label {
+    /* color: rgb(125, 93, 34); */
+}
+
+.inp input {
+    border-radius: 5px;
+    padding-inline: 10px;
+
+    padding-block: 4px;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+/* responsive design start */
+@media(max-width:430px) {
+    .content {
+        width: 100%;
+        padding: .4rem;
+    }
+
+    .inp label,
+    input {
+        font-size: 1rem;
+    }
+
+    .inp {
+
+        justify-content: space-around;
+
+    }
+
+    .inp input {
+        padding-inline: 6px;
+
+        padding-block: 3px;
+    }
+
+    .pass {
+        width: 160px;
+    }
+}

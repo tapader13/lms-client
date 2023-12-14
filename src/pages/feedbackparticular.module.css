@@ -1,0 +1,26 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9CA3AF;
+
+}
+
+.content textarea {
+    padding: 1.2rem;
+}
+
+.txt {
+    height: 260px;
+    width: 500px;
+}
+
+/* responsive design start */
+@media(max-width:1100px) {
+
+    .txt {
+        height: 260px;
+        width: 100%;
+    }
+}

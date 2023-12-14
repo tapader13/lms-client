@@ -1,0 +1,118 @@
+/* .content {
+    background: radial-gradient(circle, rgba(255, 251, 253, 1) 0%, rgba(34, 75, 122, 1) 93%);
+    width: 500px;
+    padding: 1rem;
+    border-radius: 10px;
+} */
+
+.main {
+    width: 98%;
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp label,
+input {
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+
+.inp input {
+    border-radius: 5px;
+    padding-inline: 10px;
+
+    padding-block: 4px;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-block: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.tableb td {
+    padding: 10px;
+}
+
+.column {
+    font-size: 1.3rem;
+}
+
+.tableb {
+    border-radius: 20px;
+    color: #9CA3AF;
+}
+
+.adminadd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 15px;
+    gap: 10px;
+    color: #9CA3AF;
+}
+
+
+
+/* responsive design start */
+@media(max-width:515px) {
+    .main {
+        padding-top: 15px;
+        align-items: flex-start;
+    }
+
+    .form {
+        width: 95%;
+
+    }
+
+    .inp label,
+    input {
+        font-size: 1rem;
+        border: none;
+        outline: none;
+    }
+
+    .inp input {
+        border-radius: 3px;
+        padding-inline: 5px;
+
+        padding-block: 2px;
+    }
+
+    .inp {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-block: 6px;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .tableb td {
+        padding: 5px;
+    }
+
+    .tableb {
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:447px) {
+    /* .tableb {
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    } */
+}
